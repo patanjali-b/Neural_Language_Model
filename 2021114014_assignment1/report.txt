@@ -1,0 +1,17 @@
+REPORT
+
+For LM : tokenization + 4-gram LM + Kneser-Ney smoothing:
+    On “Pride and Prejudice” corpus:
+        For training data, the average perplexity was: 332.38662172354697
+        For testing data, the average perplexity was: 1394.0869884437054
+    On “Ulysses” corpus:
+        For training data, the average perplexity was: 1345.866027280259
+        For testing data, the average perplexity was: 1518.059560030164
+
+For LM : tokenization + 4-gram LM + Witten-Bell smoothing:
+    On “Pride and Prejudice” corpus:
+        For training data, the average perplexity was: 653.4082149013562
+        For testing data, the average perplexity was: 381.16429730371834 
+    On “Ulysses” corpus:
+        For training data, the average perplexity was: 1169.8377136438892
+        For testing data, the average perplexity was: 1153.3499607478439
